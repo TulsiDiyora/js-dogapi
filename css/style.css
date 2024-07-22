@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    width: 280px;
+    height:100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+ol, ul{
+    list-style: none;
+}
+.w-4{
+    width: 32.3333%;
+}
+.page{
+    width: calc(100% - 280px);
+    margin-left: 280px;
+    /* padding: 20px ; */
+}
+.box{
+    aspect-ratio: 1;
+    /* max-width: 100%; */
+}
+ul, li {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+}
+.navigation-bar {
+    padding: 0px 15px;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.navigation-bar::-webkit-scrollbar{
+    display: none;
+ } 
+img{
+    width: 530px;
+    height: 550px;
+} 
